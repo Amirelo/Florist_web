@@ -1,16 +1,137 @@
 ﻿@page "/"
+@using Microsoft.AspNetCore.Components.Web
 
 <PageTitle>Home</PageTitle>
-<img 
-    src="https://images.pexels.com/photos/4041428/pexels-photo-4041428.jpeg" 
-    alt="" 
-    width="100%" 
-    height="633"
-    style="overflow: hidden; object-fit:cover; position:absolute">
+<div>
+    <img src="https://images.pexels.com/photos/7985239/pexels-photo-7985239.jpeg" alt=""
+        style="height: 100vh; object-fit:cover" class="overflow-hidden position-absolute img-fluid w-100">
 
-<div style="position:relative">
-<p>WELCOME TO</p>
-<p class="h1">The Floraria</p>
-<p>Florist Shop & Park</p>
-<button>Learn more</button>
+    <div style="height:100vh" class="position-relative d-flex flex-column align-items-center justify-content-center">
+        <p class="mb-4">WELCOME TO</p>
+        <p class="h1">Floraria</p>
+        <p class="h1 mb-5">Florist Shop & Convention</p>
+        <button class="btn btn-primary">Learn more</button>
+    </div>
+</div>
+
+<div class="d-flex justify-content-around">
+    <a class="text-decoration-none fs-4 text-black" href="" >Home</a>
+    <a class="text-decoration-none fs-4 text-black" href="">Explore</a>
+    <a class="text-decoration-none fs-4 text-black" href="">Cart</a>
+    <a class="text-decoration-none fs-4 text-black" href="">User</a>
+</div>
+
+<div style="background-color:#FBEEC1" class="d-flex p-5">
+    <div class="flex-fill">
+        <p class="h1">Welcome to our infamous Florist Shop</p>
+        <p>We hope you enjoys our products</p>
+    </div>
+    <img style="width:100px" class="flex-fill" src="https://images.pexels.com/photos/931166/pexels-photo-931166.jpeg">
+</div>
+
+<div style="background-color:#FBEEC180" class="p-5">
+    <p class="h1">Bestsellers</p>
+    <section class="d-flex justify-content-around">
+        <article>
+            <img class="flex-fill mb-2" style="width:200px"
+                src="https://images.pexels.com/photos/67082/pexels-photo-67082.jpeg" alt="">
+            <div class="border rounded" style="width: 200px;">
+                <p>Red Petal Flowers</p>
+                <p>$15</p>
+                <p>For a romantic day</p>
+            </div>
+        </article>
+
+        <article>
+            <img class="flex-fill mb-2" style="width:200px"
+                src="https://images.pexels.com/photos/67082/pexels-photo-67082.jpeg" alt="">
+            <div class="border rounded" style="width: 200px;">
+                <p>Red Petal Flowers</p>
+                <p>$15</p>
+                <p>For a romantic day</p>
+            </div>
+        </article>
+
+        <article>
+            <img class="flex-fill mb-2" style="width:200px"
+                src="https://images.pexels.com/photos/67082/pexels-photo-67082.jpeg" alt="">
+            <div class="border rounded" style="width: 200px;">
+                <p>Red Petal Flowers</p>
+                <p>$15</p>
+                <p>For a romantic day</p>
+            </div>
+        </article>
+    </section>
+</div>
+
+<div style="background-color:#FBEEC1" class="p-5 d-flex justify-content-between">
+    <div style="flex:1">
+        <p class="h1">Plant of the day</p>
+        <p>Description</p>
+    </div>
+    <div style="flex:1">
+        <img src="https://images.pexels.com/photos/993626/pexels-photo-993626.jpeg" style="width:100%" />
+        <p>Picture Description</p>
+    </div>
+</div>
+
+<div style="background-color:#FBEEC180" class="p-5">
+    <p class="h1 text-center">Promos and offers</p>
+    <section class="d-flex justify-content-around border-dark">
+        <article>
+            <img class="flex-fill mb-2" style="width:200px"
+                src="https://images.pexels.com/photos/67082/pexels-photo-67082.jpeg" alt="">
+            <div class="border rounded" style="width: 200px;">
+                <p>Red Petal Flowers</p>
+                <p>$15</p>
+                <p>For a romantic day</p>
+            </div>
+        </article>
+
+        <article>
+            <img class="flex-fill mb-2" style="width:200px"
+                src="https://images.pexels.com/photos/67082/pexels-photo-67082.jpeg" alt="">
+            <div class="border rounded" style="width: 200px;">
+                <p>Red Petal Flowers</p>
+                <p>$15</p>
+                <p>For a romantic day</p>
+            </div>
+        </article>
+
+        <article>
+            <img class="flex-fill mb-2" style="width:200px"
+                src="https://images.pexels.com/photos/67082/pexels-photo-67082.jpeg" alt="">
+            <div class="border rounded" style="width: 200px;">
+                <p>Red Petal Flowers</p>
+                <p>$15</p>
+                <p>For a romantic day</p>
+            </div>
+        </article>
+    </section>
+</div>
+
+<div style="background-color:#FBEEC1" class="p-5">
+    <p class="h1 text-center">Contacts</p>
+    <div class="d-flex justify-content-between">
+    <div class="border rounded border-dark w-25">
+        <p class="h3">Information</p>
+        <p>058-281-4653</p>
+        <p>trandang210799@gmail.com</p>
+    </div>
+
+    <div class="border rounded border-dark w-25">
+        <p class="h3">Work hour</p>
+        <p>Monday to Friday</p>
+        <p>9:00 AM - 6:00 PM</p>
+        <p>Saturday</p>
+        <p>9:00 AM - 12:00 PM</p>
+    </div>
+
+    <div class="border rounded border-dark w-25">
+        <p class="h3">Social Media</p>
+        <p>Facebook</p>
+        <p>Linkedln</p>
+        <p>TopCV</p>
+    </div>
+    </div>
 </div>
