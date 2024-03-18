@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/projects/dotnet/BlazorApp1/Components/features/CustomButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xmZWF0dXJlc1xDdXN0b21CdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-spv6wipnr7
+
 [D:/projects/dotnet/BlazorApp1/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-j65y7q72mt

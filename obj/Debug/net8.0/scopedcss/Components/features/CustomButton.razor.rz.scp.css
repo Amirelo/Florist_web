@@ -1,0 +1,20 @@
+.mybutton[b-spv6wipnr7]{
+    background-color: #BC986A;
+    border-radius: 4px;
+    padding-inline: 8px;
+    padding-block:4px;
+    border-width: 0px;
+    transition: 500ms;
+    opacity: 1;
+}
+
+.mybutton:hover[b-spv6wipnr7]{
+    background-color: #DAAD86;
+    opacity: 1;
+    transition: 500ms;
+}
+
+.mybutton:active[b-spv6wipnr7]{
+    opacity: 0.5;
+    transform: 200ms;
+}
